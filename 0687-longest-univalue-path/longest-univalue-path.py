@@ -20,7 +20,6 @@ class Solution:
 
             if root.left and root.left.val == root.val:
                 left_a = left + 1
-
             if root.right and root.right.val == root.val:
                 right_a = right + 1
 
