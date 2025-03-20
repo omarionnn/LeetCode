@@ -24,6 +24,7 @@ class Solution:
                 right_a = right + 1
 
             longest = max(longest, left_a + right_a)
+
             return max(left_a, right_a)
 
         dfs(root)
