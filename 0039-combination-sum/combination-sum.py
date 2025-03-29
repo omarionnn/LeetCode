@@ -16,7 +16,7 @@ class Solution:
 
                 path.pop()
         res = []
-
+        candidates.sort()
         backtrack(0, [], target)
         return res
         
