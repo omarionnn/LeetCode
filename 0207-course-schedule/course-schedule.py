@@ -19,6 +19,4 @@ class Solution:
                 if in_degree[c] == 0:
                     queue.append(c)
 
-
         return courses_taken == numCourses
-        
