@@ -1,5 +1,7 @@
 class Solution:
     def maximumDifference(self, nums: List[int]) -> int:
+        if not nums:
+            return -1
         res = 0
 
         l = 0
