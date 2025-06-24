@@ -21,7 +21,7 @@ class Solution:
 
         curr = head
 
-        while prev and curr:
+        while prev:
             if prev.val != curr.val:
                 return False
             curr = curr.next
