@@ -1,7 +1,5 @@
 class Solution:
     def longestValidParentheses(self, s: str) -> int:
-        if not s:
-            return 0
         stack = [-1]
         max_ = 0
 
@@ -16,5 +14,4 @@ class Solution:
                     max_ = max(max_, i - stack[-1])
 
         return max_
-
         
