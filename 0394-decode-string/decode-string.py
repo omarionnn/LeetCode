@@ -14,6 +14,7 @@ class Solution:
                 k = ''
                 while stack and stack[-1].isdigit():
                     k = stack.pop() + k
+
                 stack.append(int(k) * subs)
 
         return ''.join(stack)
